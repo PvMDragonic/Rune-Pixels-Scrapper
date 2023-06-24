@@ -10,3 +10,5 @@ Feed a list of clan names into the `scrap()` function. The names must have hyphe
 * Very very small XP columns may also go unnoticed, as the scrapper tries to hover over them so the XP for that day gets loaded in.
 
 * Sometimes it takes a while for a given page to load, as RunePixels seems to be a bit slow. The scrapper waits for five seconds before searching for the desired HTML elements, and if the page doesn't load properly by then, it'll crash (as it wont find the canvas). 
+
+* Also, it may happen that the page will load with a "*Runepixels server maybe has problems!*" error message. This is on their end and seems to happen at random for smaller/less accessed clans.
